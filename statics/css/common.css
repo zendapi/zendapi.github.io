@@ -9235,7 +9235,7 @@ td.uk-text-break {
 
 @font-face {
   font-family: 'Gotham Rounded';
-  src: url(statics/fonts/GothamRoundedBook.otf) format("truetype");
+  src: url(/statics/fonts/GothamRoundedBook.otf) format("truetype");
   font-weight: 400;
   font-style: normal; }
 
