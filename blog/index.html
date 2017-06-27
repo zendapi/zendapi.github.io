@@ -23,6 +23,7 @@ prev: null,
 next: "/blog/page/2/"
 };
     
+    window.SITE_CATEGORIES = [{"name":"网站首页","url":"/"},{"name":"手册","url":"/manual"},{"name":"博客","url":"/blog"},{"name":"关于我们","url":"/about"}]
 </script>
 <div class="uk-offcanvas-content">
     <div id="header-wrapper" class="uk-container uk-margin-remove uk-container-expand site-header" uk-sticky="show-on-up: true; animation: uk-animation-slide-top;"></div>
@@ -31,10 +32,23 @@ next: "/blog/page/2/"
 <div id="container"></div>
     <div id= "footer-wrapper"></div>
     <div id="offcanvas-push" uk-offcanvas="mode: slide; overlay: true">
-        <div class="uk-offcanvas-bar">
+        <div class="uk-offcanvas-bar" id = "sidebar">
             <button class="uk-offcanvas-close" type="button" uk-close></button>
-            <h3>李岱</h3>
-            <p>你说6不6</p>
+            <div class="menu-container">
+                
+<ul class = "uk-grid uk-text-left">
+
+    <li class="uk-width-1-1"><a href = "/">网站首页</a></li>
+
+    <li class="uk-width-1-1"><a href = "/manual">手册</a></li>
+
+    <li class="uk-width-1-1"><a href = "/blog">博客</a></li>
+
+    <li class="uk-width-1-1"><a href = "/about">关于我们</a></li>
+
+                
+                
+            </div>
         </div>
     </div>
 </div>
