@@ -15,16 +15,19 @@
 <body>
 <script type="application/javascript">
     
+    
+window.MANUAL_CATALOG_DATA = [{"text":"序言","key":"prologue","children":[{"text":"发布说明","key":"releasenotes"},{"text":"升级指南","key":"upgradeguide"},{"text":"如何贡献代码","key":"contributionguide"}]},{"text":"快速入门","key":"getstarted","children":[{"text":"项目介绍","key":"introduction"},{"text":"安装zendAPI","key":"installation"},{"text":"编译参数配置","key":"compileconfigure","isActive":true}],"isOpen":true}]
+    
     window.SITE_CATEGORIES = [{"name":"网站首页","url":"/"},{"name":"手册","url":"/manual"},{"name":"博客","url":"/blog"},{"name":"关于我们","url":"/about"}]
 </script>
 <div class="uk-offcanvas-content">
     <div id="header-wrapper" class="uk-container uk-margin-remove uk-container-expand site-header" uk-sticky="show-on-up: true; animation: uk-animation-slide-top;"></div>
     <script type="application/javascript">
-    window.ABOUT_PAGE_TYPE = "changelog";
+   window.MANUAL_PAGE_TYPE = "normal";
 </script>
 
-<script src="/statics/js/pages/about.js"></script>
-<link rel="stylesheet" href="/statics/css/about.css">
+<script src="/statics/js/pages/manual.js"></script>
+<link rel="stylesheet" href="/statics/css/manual.css">
 <div id="container"></div>
     <div id= "footer-wrapper"></div>
     <div id="offcanvas-push" uk-offcanvas="mode: slide; overlay: true">
@@ -44,9 +47,14 @@
 
 </ul>
                 
-                <ul class = "uk-text-left extra-items uk-width-1-1">
-                    <li class="uk-width-1-1"><a href = "/about/changelog.html">Changelog</a></li>
-                </ul>
+                <div class="uk-panel">
+                    <ul class="uk-nav uk-nav-default tm-nav uk-margin-top">
+                        <li class="uk-nav-header">asdasdasdasdas</li>
+                        <li><a>asdasdasdasdasdassda</a></li>
+                        <li><a>asdasdasdasdasdassda</a></li>
+                        <li>asdasdasdasdasdassda</li>
+                    </ul>
+                </div>
                 
                
             </div>
