@@ -32,27 +32,6 @@ body {
     padding-top: 0;
     margin-bottom: 30px !important;
     margin-top: 20px !important; }
-.apidoc-index-info-container .title {
-  height: 40px;
-  line-height: 40px; }
-  .apidoc-index-info-container .title h3 {
-    display: inline;
-    margin-left: 10px; }
-  .apidoc-index-info-container .title img {
-    display: inline;
-    width: 35px;
-    height: 35px;
-    margin-top: -5px; }
-
-.apidoc-index-info-container .namespace-entry {
-  font-family: "Gotham Rounded"; }
-
-.apidoc-index-info-container a {
-  font-size: 1.2em; }
-
-@media (min-width: 640px) {
-  .apidoc-index-info-container li {
-    padding-bottom: 3px; } }
 @charset "UTF-8";
 /** 修改默认的uikit变量 */
 .side-panel {
@@ -83,3 +62,6 @@ body {
   @media (min-width: 640px) {
     .doxygen-info {
       text-align: left; } }
+.apidoc-files-info-container .list-item {
+  line-height: 25px;
+  height: 25px; }
