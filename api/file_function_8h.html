@@ -17,17 +17,18 @@
 <script type="application/javascript">
     
     
-window.INDEX_PAGE_DATA = {
-    newsList: [{"title":"我为什么要做 zendAPI 项目","url":"/2017/07/20/xiangmudongji/index.html"},{"title":"Hello world, zendAPI 项目官方网站正式上线","url":"/2017/06/26/welcome/index.html"}]
-};
+window.API_FILE_CONTENT_DATA = {"refid":"_function_8h","kind":"file","variables":[],"defines":[],"typedefs":[],"namespaces":[],"enums":[],"classes":[],"funcs":[],"modules":[],"name":"Function.h","briefDescription":"","detailDescription":"","location":{"file":"include/zapi/lang/Function.h"},"includes":[]}
     
     window.SITE_CATEGORIES = [{"name":"网站首页","url":"/"},{"name":"手册","url":"/manual"},{"name":"API文档","url":"/api"},{"name":"博客","url":"/blog"},{"name":"关于我们","url":"/about"}]
             
+       window.API_CATALOG_CATEGORIES = [{"name":"API手册首页","url":"/api/index.html","key":"apiindex","isActive":false},{"name":"模块分类","url":"/api/modules.html","key":"apimodules","isActive":false},{"name":"名称空间分类","url":"/api/namespaces.html","key":"apinamespaces","isActive":false},{"name":"全局定义","url":"/api/globals.html","key":"apiglobals","isActive":false},{"name":"所有头文件","url":"/api/files.html","key":"apifiles","isActive":true}]
+          window.API_DOXYGEN_VERSION = "1.8.14"
+    
 </script>
 <div class="uk-offcanvas-content">
     <div id="header-wrapper" class="uk-container uk-margin-remove uk-container-expand site-header" uk-sticky="show-on-up: true; animation: uk-animation-slide-top;"></div>
-    <script src="/statics/js/pages/index.js"></script>
-<link rel="stylesheet" href="/statics/css/index.css">
+    <script src="/statics/js/pages/api/file_content.js"></script>
+<link rel="stylesheet" href="/statics/css/api/file_content.css">
 <div id="container"></div>
     <div id= "footer-wrapper"></div>
     <div id="offcanvas-push" uk-offcanvas="mode: slide; overlay: true">
@@ -48,6 +49,20 @@ window.INDEX_PAGE_DATA = {
     <li class="uk-width-1-1"><a href = "/about">关于我们</a></li>
 
 </ul>
+                
+                <ul class = "uk-text-left extra-items uk-width-1-1">
+                    
+                    <li class="uk-width-1-1"><a href = /api/index.html>API手册首页</a></li>
+                    
+                    <li class="uk-width-1-1"><a href = /api/modules.html>模块分类</a></li>
+                    
+                    <li class="uk-width-1-1"><a href = /api/namespaces.html>名称空间分类</a></li>
+                    
+                    <li class="uk-width-1-1"><a href = /api/globals.html>全局定义</a></li>
+                    
+                    <li class="uk-width-1-1"><a href = /api/files.html>所有头文件</a></li>
+                    
+                </ul>
                 
 
             </div>
